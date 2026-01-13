@@ -17,3 +17,8 @@ variable "state_key" {
   description = "S3 key path for remote state file"
   type        = string
 }
+
+variable "ami_id" {
+  description = "AMI ID for EC2 instance"
+  type        = string
+}
